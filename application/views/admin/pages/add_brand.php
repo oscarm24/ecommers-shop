@@ -10,7 +10,7 @@
         </li>
         <li>
             <i class="icon-edit"></i>
-            <a href="<?php echo base_url('add/brand')?>">Add Brand</a>
+            <a href="<?php echo base_url('add/brand')?>">Agregar Marca</a>
         </li>
     </ul>
 
