@@ -97,7 +97,7 @@
                             <li><a href="<?php echo base_url('manage/product')?>"><i class="icon-eye-open"></i><span class="hidden-tablet"> Administrar Producto</span></a></li>
                           
                             <li><a href="<?php echo base_url('add/slider')?>"><i class="icon-font"></i><span class="hidden-tablet"> Agregar control deslizante</span></a></li>
-                            <li><a href="<?php echo base_url('manage/slider')?>"><i class="icon-picture"></i><span class="hidden-tablet">  Administrar control deslizante</span></a></li>
+                            <li><a href="<?php echo base_url('manage/slider')?>"><i class="icon-picture"></i><span class="hidden-tablet">  Control deslizante</span></a></li>
                             <li><a href="<?php echo base_url('theme/option');?>"><i class="icon-align-justify"></i><span class="hidden-tablet">Opción Tema</span></a></li>
                             <li><a href="<?php echo base_url('manage/order');?>"><i class="icon-calendar"></i><span class="hidden-tablet"> Gestionar Pedido</span></a></li>
                         </ul>
