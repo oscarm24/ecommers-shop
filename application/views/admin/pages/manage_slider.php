@@ -8,13 +8,13 @@
             <a href="<?php echo base_url('dashboard') ?>">Home</a> 
             <i class="icon-angle-right"></i>
         </li>
-        <li><a href="<?php echo base_url('manage/brand') ?>">Manage Brand</a></li>
+        <li><a href="<?php echo base_url('manage/brand') ?>">Administrar Marca</a></li>
     </ul>
 
     <div class="row-fluid sortable">		
         <div class="box span12">
             <div class="box-header" data-original-title>
-                <h2><i class="halflings-icon user"></i><span class="break"></span>Manage Brand</h2>
+                <h2><i class="halflings-icon user"></i><span class="break"></span>Administrar Marca</h2>
                 <div class="box-icon">
                     <a href="#" class="btn-setting"><i class="halflings-icon wrench"></i></a>
                     <a href="#" class="btn-minimize"><i class="halflings-icon chevron-up"></i></a>
@@ -37,9 +37,9 @@
                             <th>Sr.</th>
                             <th>Slider Title</th>
                             <th>Slider Link</th>
-                            <th>Slider Image</th>
-                            <th>Publication Status</th>
-                            <th>Actions</th>
+                            <th>Imagen deslizante</th>
+                            <th>Estado Publicación</th>
+                            <th>Acciones</th>
                         </tr>
                     </thead>   
                     <tbody>
@@ -55,10 +55,10 @@
                                 <td class="center"><img src="<?php echo base_url('uploads/'.$single_slider->slider_image);?>" style="width:300px;height:100px"/></td>
                                 <td class="center">
                                     <?php if ($single_slider->publication_status == 1) { ?>
-                                        <span class="label label-success">Published</span>
+                                        <span class="label label-success">Publicado</span>
                                     <?php } else {
                                         ?>
-                                        <span class="label label-danger" style="background:red">Unpublished</span>
+                                        <span class="label label-danger" style="background:red">Inédito</span>
                                     <?php }
                                     ?>
                                 </td>
