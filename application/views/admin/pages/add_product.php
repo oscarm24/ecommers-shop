@@ -10,14 +10,14 @@
         </li>
         <li>
             <i class="icon-edit"></i>
-            <a href="<?php echo base_url('add/product')?>">Add Product</a>
+            <a href="<?php echo base_url('add/product')?>">Agregar Producto</a>
         </li>
     </ul>
 
     <div class="row-fluid sortable">
         <div class="box span12">
             <div class="box-header" data-original-title>
-                <h2><i class="halflings-icon edit"></i><span class="break"></span>Add Product</h2>
+                <h2><i class="halflings-icon edit"></i><span class="break"></span>Agregar Producto</h2>
                 <div class="box-icon">
                     <a href="#" class="btn-setting"><i class="halflings-icon wrench"></i></a>
                     <a href="#" class="btn-minimize"><i class="halflings-icon chevron-up"></i></a>
@@ -36,46 +36,46 @@
                     <fieldset>
 
                         <div class="control-group">
-                            <label class="control-label" for="fileInput">Product Title</label>
+                            <label class="control-label" for="fileInput">Titulo del producto</label>
                             <div class="controls">
                                 <input class="span6 typeahead" name="product_title" id="fileInput" type="text"/>
                             </div>
                         </div>          
                         <div class="control-group">
-                            <label class="control-label" for="textarea2">Product Short Description</label>
+                            <label class="control-label" for="textarea2">Breve descripción del producto</label>
                             <div class="controls">
                                 <textarea class="cleditor" name="product_short_description" id="textarea2" rows="2"></textarea>
                             </div>
                         </div>        
                         <div class="control-group">
-                            <label class="control-label" for="textarea2">Product Long Description</label>
+                            <label class="control-label" for="textarea2">Descripción larga del producto</label>
                             <div class="controls">
                                 <textarea class="cleditor" name="product_long_description" id="textarea2" rows="4"></textarea>
                             </div>
                         </div>
                         <div class="control-group">
-                            <label class="control-label" for="fileInput">Product Image</label>
+                            <label class="control-label" for="fileInput">Imagen del producto</label>
                             <div class="controls">
                                 <input class="span6 typeahead" name="product_image" id="fileInput" type="file"/>
                             </div>
                         </div> 
                         
                         <div class="control-group">
-                            <label class="control-label" for="fileInput">Product Price</label>
+                            <label class="control-label" for="fileInput">Precio del producto</label>
                             <div class="controls">
                                 <input class="span6 typeahead" name="product_price" id="fileInput" type="text"/>
                             </div>
                         </div>
                         
                         <div class="control-group">
-                            <label class="control-label" for="fileInput">Product Quantity</label>
+                            <label class="control-label" for="fileInput">Cantidad del producto</label>
                             <div class="controls">
                                 <input class="span6 typeahead" name="product_quantity" id="fileInput" type="text"/>
                             </div>
                         </div>
                         
                         <div class="control-group">
-                            <label class="control-label" for="fileInput">Product Category</label>
+                            <label class="control-label" for="fileInput">Categoría del producto</label>
                             <div class="controls">
                                 <select name="product_category">
                                     <?php foreach($all_published_category as $single_category){?>
@@ -86,7 +86,7 @@
                         </div> 
                         
                         <div class="control-group">
-                            <label class="control-label" for="fileInput">Product Brand</label>
+                            <label class="control-label" for="fileInput">Producto de marca</label>
                             <div class="controls">
                                 <select name="product_brand">
                                     <?php foreach($all_published_brand as $single_brand){?>
@@ -97,26 +97,26 @@
                         </div> 
                         
                         <div class="control-group">
-                            <label class="control-label" for="fileInput">Product Featured</label>
+                            <label class="control-label" for="fileInput">Producto destacado</label>
                             <div class="controls">
-                                <input class="span6 typeahead" value="0" name="product_feature" id="fileInput" type="radio" checked="true"/> Unfeature
-                                <input class="span6 typeahead" value="1" name="product_feature" id="fileInput" type="radio" />Featured
+                                <input class="span6 typeahead" value="0" name="product_feature" id="fileInput" type="radio" checked="true"/> no característica
+                                <input class="span6 typeahead" value="1" name="product_feature" id="fileInput" type="radio" />Presentado
                              </div>
                         </div>
                         
                         <div class="control-group">
-                            <label class="control-label" for="textarea2">Publication Status</label>
+                            <label class="control-label" for="textarea2">Estado publicacion</label>
                             <div class="controls">
                                 <select name="publication_status">
-                                    <option value="1">Published</option>
-                                    <option value="0">UnPublished</option>
+                                    <option value="1">Publicado</option>
+                                    <option value="0">Inédito</option>
                                 </select>
                             </div>
                         </div>
                         
                         <div class="form-actions">
-                            <button type="submit" class="btn btn-primary">Save changes</button>
-                            <button type="reset" class="btn">Cancel</button>
+                            <button type="submit" class="btn btn-primary">Guardar Cambios</button>
+                            <button type="reset" class="btn">Cancelar</button>
                         </div>
                     </fieldset>
                 </form>   
