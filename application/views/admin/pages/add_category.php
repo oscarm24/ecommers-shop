@@ -59,8 +59,8 @@
                         </div>
                         
                         <div class="form-actions">
-                            <button type="submit" id="save_category" class="btn btn-primary">Save changes</button>
-                            <button type="reset" class="btn">Cancel</button>
+                            <button type="submit" id="save_category" class="btn btn-primary">Guardar Cambios</button>
+                            <button type="reset" class="btn">Cancelar</button>
                         </div>
                     </fieldset>
                 </form>   
