@@ -8,13 +8,13 @@
             <a href="<?php echo base_url('dashboard') ?>">Home</a> 
             <i class="icon-angle-right"></i>
         </li>
-        <li><a href="<?php echo base_url('manage/category') ?>">Manage Category</a></li>
+        <li><a href="<?php echo base_url('manage/category') ?>">Administrar Categoría</a></li>
     </ul>
 
     <div class="row-fluid sortable">		
         <div class="box span12">
             <div class="box-header" data-original-title>
-                <h2><i class="halflings-icon user"></i><span class="break"></span>Manage Category</h2>
+                <h2><i class="halflings-icon user"></i><span class="break"></span>Administrar Categoría</h2>
                 <div class="box-icon">
                     <a href="#" class="btn-setting"><i class="halflings-icon wrench"></i></a>
                     <a href="#" class="btn-minimize"><i class="halflings-icon chevron-up"></i></a>
@@ -33,10 +33,10 @@
                     <thead>
                         <tr>
                             <th>Sr.</th>
-                            <th>Category Name</th>
-                            <th>Category Description</th>
-                            <th>Publication Status</th>
-                            <th>Actions</th>
+                            <th>Nombre Categoría</th>
+                            <th>Descripción Categoría</th>
+                            <th>Estado Publicación</th>
+                            <th>Acciones</th>
                         </tr>
                     </thead>   
                     <tbody>
