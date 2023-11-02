@@ -10,14 +10,14 @@
         </li>
         <li>
             <i class="icon-edit"></i>
-            <a href="<?php echo base_url('add/category')?>">Add Category</a>
+            <a href="<?php echo base_url('add/category')?>">Agregar Categoría</a>
         </li>
     </ul>
 
     <div class="row-fluid sortable">
         <div class="box span12">
             <div class="box-header" data-original-title>
-                <h2><i class="halflings-icon edit"></i><span class="break"></span>Add Category</h2>
+                <h2><i class="halflings-icon edit"></i><span class="break"></span>Agregar Categoría</h2>
                 <div class="box-icon">
                     <a href="#" class="btn-setting"><i class="halflings-icon wrench"></i></a>
                     <a href="#" class="btn-minimize"><i class="halflings-icon chevron-up"></i></a>
@@ -36,24 +36,24 @@
                     <fieldset>
 
                         <div class="control-group">
-                            <label class="control-label" for="fileInput">Category Name</label>
+                            <label class="control-label" for="fileInput">Nombre de la categoría</label>
                             <div class="controls">
                                 <input class="span6 typeahead" id="category_name" name="category_name" type="text"/>
                             </div>
                         </div>          
                         <div class="control-group">
-                            <label class="control-label" for="textarea2">Category Description</label>
+                            <label class="control-label" for="textarea2">Descripción de categoría</label>
                             <div class="controls">
                                 <textarea class="cleditor" id="category_description" name="category_description" rows="3"></textarea>
                             </div>
                         </div>
                                 
                         <div class="control-group">
-                            <label class="control-label" for="textarea2">Publication Status</label>
+                            <label class="control-label" for="textarea2">Estado Publicación</label>
                             <div class="controls">
                                 <select name="publication_status">
-                                    <option value="1">Published</option>
-                                    <option value="0">UnPublished</option>
+                                    <option value="1">Publicado</option>
+                                    <option value="0">Inédito</option>
                                 </select>
                             </div>
                         </div>
