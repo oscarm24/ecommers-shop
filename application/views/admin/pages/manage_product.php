@@ -35,12 +35,12 @@
                     <thead>
                         <tr>
                             <th>Sr.</th>
-                            <th>Product Title</th>
-                            <th>Image</th>
-                            <th>Price</th>
-                            <th>Quantity</th>
-                            <th>Publication Status</th>
-                            <th>Actions</th>
+                            <th>Titulo del producto</th>
+                            <th>Imagen</th>
+                            <th>Precio</th>
+                            <th>Cantidad</th>
+                            <th>Estado Publicación</th>
+                            <th>Acciones</th>
                         </tr>
                     </thead>   
                     <tbody>
