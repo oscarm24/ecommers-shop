@@ -51,10 +51,10 @@
                                 <td><?php echo $single_category->category_description ?></td>
                                 <td class="center">
                                     <?php if ($single_category->publication_status == 1) { ?>
-                                        <span class="label label-success">Published</span>
+                                        <span class="label label-success">Publicado</span>
                                     <?php } else {
                                         ?>
-                                        <span class="label label-danger" style="background:red">Unpublished</span>
+                                        <span class="label label-danger" style="background:red">Inédito</span>
                                         <?php }
                                     ?>
                                 </td>
