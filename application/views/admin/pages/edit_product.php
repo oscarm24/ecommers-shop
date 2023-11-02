@@ -36,7 +36,7 @@
                     <fieldset>
 
                         <div class="control-group">
-                            <label class="control-label" for="fileInput">Titulo del producto</label>
+                            <label class="control-label" for="fileInput">Título del producto</label>
                             <div class="controls">
                                 <input class="span6 typeahead" value="<?php echo $product_info_by_id->product_title;?>" name="product_title" id="fileInput" type="text"/>
                             </div>
