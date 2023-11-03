@@ -4,7 +4,7 @@
     <div class="content">
         <div class="error">		
             <h2>404 Not Found</h2>
-            <p>Your Content Not Found</p>
+            <p>No Encontrado</p>
         </div>  	
         <div class="clear"></div>
     </div>

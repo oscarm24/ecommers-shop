@@ -65,10 +65,10 @@
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li class="dropdown-menu-title">
-                                        <span>Account Settings</span>
+                                        <span>Configuraciones</span>
                                     </li>
-                                    <li><a href="#"><i class="halflings-icon user"></i> Profile</a></li>
-                                    <li><a href="<?php echo base_url('logout')?>"><i class="halflings-icon off"></i> Logout</a></li>
+                                    <li><a href="#"><i class="halflings-icon user"></i> Perfil</a></li>
+                                    <li><a href="<?php echo base_url('logout')?>"><i class="halflings-icon off"></i> Cerrar sesión</a></li>
                                 </ul>
                             </li>
                             <!-- end: User Dropdown -->
@@ -136,7 +136,7 @@
         <footer>
 
             <p> <center>
-                <span>&copy; <?php echo date("Y"); ?> Ecommerce CodeIgniter - Bootstrap Template By <a href="http://jiji262.github.io/Bootstrap_Metro_Dashboard/" style="color:white;" alt="Bootstrap_Metro_Dashboard">Bootstrap Metro Dashboard</a></span>
+                <span>&copy; <?php echo date("Y"); ?> Derechos Reservados <a href="http://jiji262.github.io/Bootstrap_Metro_Dashboard/" style="color:white;" alt="Bootstrap_Metro_Dashboard"></a></span>
 
             </p></center>
 
