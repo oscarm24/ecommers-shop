@@ -10,14 +10,14 @@
         </li>
         <li>
             <i class="icon-edit"></i>
-            <a href="<?php echo base_url('add/slider')?>">Add Slider</a>
+            <a href="<?php echo base_url('add/slider')?>">Agregar control deslizante</a>
         </li>
     </ul>
 
     <div class="row-fluid sortable">
         <div class="box span12">
             <div class="box-header" data-original-title>
-                <h2><i class="halflings-icon edit"></i><span class="break"></span>Add Slider</h2>
+                <h2><i class="halflings-icon edit"></i><span class="break"></span>Agregar control deslizante</h2>
                 <div class="box-icon">
                     <a href="#" class="btn-setting"><i class="halflings-icon wrench"></i></a>
                     <a href="#" class="btn-minimize"><i class="halflings-icon chevron-up"></i></a>
@@ -36,21 +36,21 @@
                     <fieldset>
 
                         <div class="control-group">
-                            <label class="control-label" for="fileInput">Slider Title</label>
+                            <label class="control-label" for="fileInput">Título del control delizante</label>
                             <div class="controls">
                                 <input class="span6 typeahead" name="slider_title" type="text"/>
                             </div>
                         </div> 
                         
                          <div class="control-group">
-                            <label class="control-label" for="fileInput">Slider Image</label>
+                            <label class="control-label" for="fileInput">Imagen del control deslizante</label>
                             <div class="controls">
                                 <input class="span6 typeahead" name="slider_image" type="file"/>
                             </div>
                         </div>
                         
                          <div class="control-group">
-                            <label class="control-label" for="fileInput">Slider Link</label>
+                            <label class="control-label" for="fileInput">Enlace deslizante</label>
                             <div class="controls">
                                 <input class="span6 typeahead"  name="slider_link" type="url"/>
                             </div>
@@ -58,18 +58,18 @@
                         
                                 
                         <div class="control-group">
-                            <label class="control-label" for="textarea2">Publication Status</label>
+                            <label class="control-label" for="textarea2">Estado de publicación</label>
                             <div class="controls">
                                 <select name="publication_status">
-                                    <option value="1">Published</option>
-                                    <option value="0">UnPublished</option>
+                                    <option value="1">Publicado</option>
+                                    <option value="0">Inédito</option>
                                 </select>
                             </div>
                         </div>
                         
                         <div class="form-actions">
-                            <button type="submit" id="save_category" class="btn btn-primary">Save changes</button>
-                            <button type="reset" class="btn">Cancel</button>
+                            <button type="submit" id="save_category" class="btn btn-primary">Guardar Cambios</button>
+                            <button type="reset" class="btn">Cancelar</button>
                         </div>
                     </fieldset>
                 </form>   
