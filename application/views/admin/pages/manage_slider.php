@@ -35,8 +35,8 @@
                     <thead>
                         <tr>
                             <th>Sr.</th>
-                            <th>Slider Title</th>
-                            <th>Slider Link</th>
+                            <th>Título</th>
+                            <th>Link</th>
                             <th>Imagen deslizante</th>
                             <th>Estado Publicación</th>
                             <th>Acciones</th>

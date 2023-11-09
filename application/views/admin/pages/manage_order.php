@@ -5,16 +5,16 @@
     <ul class="breadcrumb">
         <li>
             <i class="icon-home"></i>
-            <a href="<?php echo base_url('dashboard')?>">Home</a> 
+            <a href="<?php echo base_url('dashboard')?>">Inicio</a> 
             <i class="icon-angle-right"></i>
         </li>
-        <li><a href="<?php echo base_url('manage/product')?>">Manage Product</a></li>
+        <li><a href="<?php echo base_url('manage/product')?>">Gestionar Pedido</a></li>
     </ul>
 
     <div class="row-fluid sortable">		
         <div class="box span12">
             <div class="box-header" data-original-title>
-                <h2><i class="halflings-icon user"></i><span class="break"></span>Manage Product</h2>
+                <h2><i class="halflings-icon user"></i><span class="break"></span>Gestionar Pedido</h2>
                 <div class="box-icon">
                     <a href="#" class="btn-setting"><i class="halflings-icon wrench"></i></a>
                     <a href="#" class="btn-minimize"><i class="halflings-icon chevron-up"></i></a>
@@ -35,11 +35,11 @@
                     <thead>
                         <tr>
                             <th>Sr.</th>
-                            <th>Customer Name</th>
-                            <th>Customer Number</th>
-                            <th>Customer Phone</th>
-                            <th>Total Amount</th>
-                            <th>Actions</th>
+                            <th>Nombre del cliente</th>
+                            <th>Número de cliente</th>
+                            <th>Teléfono</th>
+                            <th>Cantidad</th>
+                            <th>Acciones</th>
                         </tr>
                     </thead>   
                     <tbody>
@@ -53,11 +53,11 @@
                             <td><?php echo $single_order->customer_name?></td>
                             <td><?php echo $single_order->customer_phone?></td>
                             <td><?php echo $single_order->customer_email?></td>
-                            <td><?php echo $this->cart->format_number($single_order->order_total)?> $</td>
+                            <td>$ <?php echo $this->cart->format_number($single_order->order_total)?></td>
                             <td>
                                 
-                                <a class="btn btn-info" href="<?php echo base_url('order/details/'.$single_order->order_id);?>">View</a>
-                                <a class="btn btn-success" href="<?php echo base_url('web/pdf/'.$single_order->order_id);?>">Download</a>
+                                <a class="btn btn-info" href="<?php echo base_url('order/details/'.$single_order->order_id);?>">Ver</a>
+                                <a class="btn btn-success" href="<?php echo base_url('web/pdf/'.$single_order->order_id);?>">Descargar</a>
                             </td>
                         </tr>
                         <?php }?>
