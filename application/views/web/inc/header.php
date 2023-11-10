@@ -45,10 +45,10 @@
                 $customer_id = $this->session->userdata('customer_id');
                 if ($customer_id) {
                     ?>
-                    <div class="login"><a href="<?php echo base_url('/customer/logout'); ?>">Cerrar</a></div>
+                    <div class="login"><a href="<?php echo base_url('/customer/logout'); ?>">Logout</a></div>
                 <?php } else {
                     ?>
-                    <div class="login"><a href="<?php echo base_url('/customer/login'); ?>">Inicio</a></div>
+                    <div class="login"><a href="<?php echo base_url('/customer/login'); ?>">Login</a></div>
 
                     <?php
                 }

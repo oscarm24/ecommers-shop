@@ -34,7 +34,7 @@
                 <table class="table table-striped table-bordered bootstrap-datatable datatable">
                     <thead>
                         <tr>
-                            <th>Sr.</th>
+                            <th>ID</th>
                             <th>Titulo del producto</th>
                             <th>Imagen</th>
                             <th>Precio</th>

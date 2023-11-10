@@ -32,7 +32,7 @@
                 <table class="table table-striped table-bordered bootstrap-datatable datatable">
                     <thead>
                         <tr>
-                            <th>Sr.</th>
+                            <th>ID</th>
                             <th>Nombre Categoría</th>
                             <th>Descripción Categoría</th>
                             <th>Estado Publicación</th>

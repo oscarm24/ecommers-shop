@@ -34,7 +34,7 @@
                 <table class="table table-striped table-bordered bootstrap-datatable datatable">
                     <thead>
                         <tr>
-                            <th>Sr.</th>
+                            <th>ID</th>
                             <th>Nombre del cliente</th>
                             <th>Número de cliente</th>
                             <th>Teléfono</th>

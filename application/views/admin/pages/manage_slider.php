@@ -34,7 +34,7 @@
                 <table class="table table-striped table-bordered bootstrap-datatable datatable">
                     <thead>
                         <tr>
-                            <th>Sr.</th>
+                            <th>ID</th>
                             <th>Título</th>
                             <th>Link</th>
                             <th>Imagen deslizante</th>
