@@ -786,7 +786,7 @@ button.grey:hover,
 }
 .page-no li a:hover,
 .page-no li.active {
-	color: #602d8d;
+	color: #14449c;
 	text-decoration: underline;
 }
 /**** Grid 1_0f_4 ****/
@@ -878,7 +878,7 @@ button.grey:hover,
 	transition: all 0.5s ease;
 }
 .images_1_of_4 .button a:hover {
-	color: #70389c;
+	color: #14449c;
 	background: #e8e8e8;
 }
 .images_1_of_4 .button span img {
@@ -1074,7 +1074,7 @@ button.grey:hover,
 }
 .back-links p a:hover,
 .back-links p a:active {
-	color: #70389c;
+	color: #14449c;
 }
 .image {
 	clear: both;
@@ -1475,7 +1475,7 @@ button.grey:hover,
 	width: 15%;
 }
 .year p {
-	color: #70389c;
+	color: #14449c;
 	font-size: 0.95em;
 }
 .span_1_of_3 p.history {

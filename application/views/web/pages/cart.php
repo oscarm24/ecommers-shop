@@ -55,7 +55,7 @@
                             <td>$ 
                                 <?php
                                 $total = $this->cart->total();
-                                $tax = ($total * 15) / 100;
+                                $tax = ($total * 13) / 100;
                                 echo $this->cart->format_number($tax);
                                 ?>
                             </td>
