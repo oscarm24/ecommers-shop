@@ -3,7 +3,7 @@
 <div class="main">
     <div class="content" style="text-align: center">
         <div class="register_account" style="text-align:center;display:inline-block;float: none">
-            <h3>Your Shipping Address</h3>
+            <h3>Detalles del envío</h3>
             <style type="text/css">
                 #result{color:red;padding: 5px}
                 #result p{color:red}
@@ -17,32 +17,32 @@
                         <tr>
                             <td>
                                 <div>
-                                    <input type="text" name="shipping_name" placeholder="Enter Your Name">
+                                    <input type="text" name="shipping_name" placeholder="Nombre">
                                 </div>
 
 
                                 <div>
-                                    <input type="text" name="shipping_city" placeholder="Enter Your City">
+                                    <input type="text" name="shipping_city" placeholder="Ciudad">
                                 </div>
                                 <div>
-                                    <input type="text" name="shipping_phone" placeholder="Enter Your Phone">
+                                    <input type="text" name="shipping_phone" placeholder="Teléfono">
                                 </div>
                                 <div>
-                                    <input type="text" name="shipping_zipcode" placeholder="Enter Your ZipCode">
+                                    <input type="text" name="shipping_zipcode" placeholder="Código postal">
                                 </div>
                             </td>
                             <td>
                                 <div>
-                                    <input type="text" name="shipping_email" placeholder="Enter Your Email">
+                                    <input type="text" name="shipping_email" placeholder="Correo eletrónico">
                                 </div>
                                         
 
                                 <div>
-                                    <input type="text" name="shipping_address" placeholder="Enter Your Address">
+                                    <input type="text" name="shipping_address" placeholder="Dirección">
                                 </div>
                                 
                                 <div>
-                                <select id="country" name="customer_country" class="frm-field required">
+                                <select id="country" name="shipping_country" class="frm-field required">
                                         <option value="null">Seleccionar país</option>         
                                         <option value="Afghanistan">Afghanistan</option>
                                         <option value="Albania">Albania</option>
@@ -66,8 +66,7 @@
                             </td>
                         </tr> 
                     </tbody></table> 
-                <div class="search"><div><button class="grey">Create Account</button></div></div>
-                <p class="terms">By clicking 'Create Account' you agree to the <a href="#">Terms &amp; Conditions</a>.</p>
+                <div class="search"><div><button class="grey">Enviar</button></div></div>
                 <div class="clear"></div>
             </form>
         </div>  	

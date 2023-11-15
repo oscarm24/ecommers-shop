@@ -3,8 +3,8 @@
 <div class="main">
     <div class="content">
         <div class="login_panel">
-            <h3>Existing Customers</h3>
-            <p>Sign in with the form below.</p>
+            <h3>Iniciar Sesión</h3>
+            <p>Ingresa tus credenciales</p>
             <style type="text/css">
                 #result{color:red;padding: 5px}
                 #result p{color:red}
@@ -14,14 +14,14 @@
             </div>
             
             <form action="<?php echo base_url('customer/shipping/login');?>" method="post">
-                <input name="customer_email" placeholder="Enter Your Email" type="text"/>
-                <input name="customer_password" placeholder="Enter Your Password" type="password"/>
-                <p class="note">If you forgot your passoword just enter your email and click <a href="#">here</a></p>
-                <div class="buttons"><div><button class="grey">Sign In</button></div></div>
+                <input name="customer_email" placeholder="Correo electrónico" type="text"/>
+                <input name="customer_password" placeholder="Contraseña" type="password"/>
+               
+                <div class="buttons"><div><button class="grey">Iniciar sesión</button></div></div>
             </form>
         </div>
         <div class="register_account">
-            <h3>Register New Account</h3>
+            <h3>Nueva cuenta</h3>
             <style type="text/css">
                 #result{color:red;padding: 5px}
                 #result p{color:red}
@@ -35,50 +35,50 @@
                         <tr>
                             <td>
                                 <div>
-                                    <input type="text" name="customer_name" placeholder="Enter Your Name">
+                                    <input type="text" name="customer_name" placeholder="Nombre">
                                 </div>
 
                                 <div>
-                                    <input type="text" name="customer_password" placeholder="Enter Your Password">
+                                    <input type="text" name="customer_password" placeholder="Contraseña">
 
                                 </div>
 
                                 <div>
-                                    <input type="text" name="customer_city" placeholder="Enter Your City">
+                                    <input type="text" name="customer_city" placeholder="Ciudad">
                                 </div>
                                 <div>
-                                    <input type="text" name="customer_phone" placeholder="Enter Your Phone">
+                                    <input type="text" name="customer_phone" placeholder="Teléfono">
                                 </div>
                             </td>
                             <td>
                                 <div>
-                                    <input type="text" name="customer_email" placeholder="Enter Your Email">
+                                    <input type="text" name="customer_email" placeholder="Correo">
                                 </div>
                                         
 
                                 <div>
-                                    <input type="text" name="customer_address" placeholder="Enter Your Address">
+                                    <input type="text" name="customer_address" placeholder="Dirección">
                                 </div>
                                 
                                 <div>
                                     <select id="country" name="customer_country" class="frm-field required">
-                                        <option value="null">Select a Country</option>         
-                                        <option value="Afghanistan">Afghanistan</option>
-                                        <option value="Bangladesh">Bangladesh</option>
-                                        <option value="Pakistan">Pakistan</option>
-                                        <option value="India">India</option>
+                                        <option value="null">Seleccionar país</option>         
+                                        <option value="Afghanistan">Costa Rica</option>
+                                        <option value="Bangladesh">Guatemala</option>
+                                        <option value="Pakistan">El Salvador</option>
+                                        <option value="India">Panamá</option>
 
                                     </select>
                                 </div>		
 
                                 <div>
-                                    <input type="text" name="customer_zipcode" placeholder="Enter Your ZipCode">
+                                    <input type="text" name="customer_zipcode" placeholder="Código postal">
                                 </div>
                             </td>
                         </tr> 
                     </tbody></table> 
-                <div class="search"><div><button class="grey">Create Account</button></div></div>
-                <p class="terms">By clicking 'Create Account' you agree to the <a href="#">Terms &amp; Conditions</a>.</p>
+                <div class="search"><div><button class="grey">Crear cuenta</button></div></div>
+                <!-- <p class="terms">By clicking 'Create Account' you agree to the <a href="#">Terms &amp; Conditions</a>.</p> -->
                 <div class="clear"></div>
             </form>
         </div>  	
