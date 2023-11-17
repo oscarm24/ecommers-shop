@@ -16,7 +16,7 @@
             <form action="<?php echo base_url('customer/logincheck');?>" method="post">
                 <input name="customer_email" placeholder="Ingresa tu correo electrónico" type="text"/>
                 <input name="customer_password" placeholder="Ingresa tu cotraseña" type="password"/>
-                <p class="note">Si olvidaste tu contraseña ingresa tu correo electrónico y haz clic <a href="#"> here</a></p>
+                <p class="note">Si olvidaste tu contraseña ingresa tu correo electrónico y haz click <a href="#"> here</a></p>
                 <div class="buttons"><div><button class="grey">Iniciar sesión</button></div></div>
             </form>
         </div>	
